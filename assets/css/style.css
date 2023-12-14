@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+/* Header*/
+nav{
+ display: flex;
+ justify-content:space-around;
+ align-items: center;
+ background: #c5c5b2;
+}
+.nav-list{
+    display: flex;
+    list-style: none;  
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+ .nav-list li{
+    letter-spacing:3px;
+    margin-left: 32px;
+    padding-right: 20px;
+ }
+ a{
+    text-decoration: none;
+    color: #4b566a;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+ } 
+ a:hover {
+    opacity: 0.5;
+    transition-duration: 0.5s;
+ }
+
+ /* Main*/
+
+body{
+    background: #d2d2c1;
+    width: 900px;
+    margin: auto;
+    background-image: url('/assets/img/fundo.png');
+}
+
+ 
+.main-content{
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    
+}
+h1{
+    color: #828271;
+    font-size: 1.2em;
+}
+p{
+    margin-top: 2px;
+    text-align: justify;
+}
+.main-fotos{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Footer*/
+
+footer{
+    height: 50px;
+    
+}
+
+h4{
+    text-align: center;
+    margin-top: 50px;
+}
